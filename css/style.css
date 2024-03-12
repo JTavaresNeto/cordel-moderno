@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+
+:root {
+    --fonte-padrao: Verdana, Geneva, Sans-serif;
+    --fonte-texto: 'Sriracha', cursive;
+    --fonte-titulo: 'Passion One', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+html,body {
+    height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--fonte-titulo);
+    font-size: 10em;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+header > p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+
